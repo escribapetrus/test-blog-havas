@@ -1,0 +1,43 @@
+body {
+    background-color: rgb(235, 235, 235) !important;
+}
+
+// footer {
+//     height: 30px;
+//     background-color: rgb(116, 116, 252);
+// }
+
+button.page-link {
+    display: inline-block;
+}
+button.page-link {
+    font-size: 20px;
+    color: #29b3ed;
+    font-weight: 500;
+}
+.offset{
+  width: 500px !important;
+  margin: 20px auto;  
+}
+
+#postlist, #postdetail {
+    margin-top: 70px;
+    margin-bottom: 30px;
+
+    .card-header{
+        display: flex;
+        justify-content: space-between;
+    }
+    .postitem{
+        margin: 20px 0;
+    }
+}
+
+.jumbotron {
+    background-image: url('/images/tokyo2.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 0px 3px rgb(53, 53, 53);
+}
